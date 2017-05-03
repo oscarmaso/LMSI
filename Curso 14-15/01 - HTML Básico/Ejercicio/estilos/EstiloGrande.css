@@ -1,0 +1,13 @@
+p
+{
+	font-size: 60pt;
+	font: Verdana;
+	color: rgb(255,0,0);
+	font-weight: bold;
+}
+img
+{
+	width: 1080px;
+	height: 1080px;
+	background-color: rgb(0,255,0);
+}

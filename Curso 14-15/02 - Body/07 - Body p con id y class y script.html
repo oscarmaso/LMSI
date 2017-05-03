@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página con id,class y script</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" 
+	      href="EstiloConIDClase.css">
+	<script type="text/javascript">
+	function EscribePrimerParrafo()
+	{
+		var parrafo = document.getElementById("PrimerParrafo");
+		alert(parrafo.innerHTML);
+    }
+	</script>
+</head>
+<body>
+  <p id="PrimerParrafo">
+    Este es el primer párrafo y me llamo JUanito
+  </p>
+  <p id="PrimerParrafo">
+    Este es el segundo párrafo
+  </p>
+  <p id="TercerParrafo" onclick="EscribePrimerParrafo()">
+    Este es el tercer párrafo
+  </p>
+</body>
+</html>

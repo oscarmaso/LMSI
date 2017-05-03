@@ -1,0 +1,10 @@
+.ParrafoGrande
+{
+	color: rgb(255,0,0);
+	font-size: 25pt;
+}
+.ParrafoPequeno
+{
+	color: rgb(0,0,255);
+	font-size: 15pt;
+}

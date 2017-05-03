@@ -1,0 +1,57 @@
+table.tablaProductos
+{
+	border-collapse: collapse;   
+}
+tr.filaCabecera
+{
+	background-color: #FFA07A; /*bgcolor="#FFA07A"*/
+	text-align: center;        /*align="center"   */
+	vertical-align: middle;    /*valign="middle"  */
+	height: 50px;              /*height="50"      */
+	font-weight: bold;         /*<b> </b>         */
+}
+th
+{
+	background-color: green;
+}
+tr.filaImpar
+{
+	background-color: #B0E0E6; /*bgcolor="#B0E0E6"*/
+	height: 50px;              /*height="50"      */
+}
+tr.filaPar
+{
+	background-color: #FFFFFF; /*bgcolor="#FFFFFF"*/
+	height: 50px;              /*height="50"      */
+}
+td
+{
+	border-width: 3;           /*border="3"*/
+	border-color: #0000FF;     /*bordercolor="#0000FF"*/
+	border-style: solid;       /*Sin HTML */
+}
+td.columnaCabecera
+{
+    width: 200px;              /* width="200"    */
+}
+td.producto
+{
+	text-align: left;         /* align="left"    */
+	vertical-align: middle;   /* valign="middle" */
+	font-weight: bold;        /* <b> </b>        */
+}
+td.codigo
+{
+	text-align: left;         /* align="left"    */
+	vertical-align: top;      /* valign="top"    */
+}
+td.precio
+{
+	text-align: right;         /* align="right"    */
+	vertical-align: middle;    /* valign="middle"  */
+}
+td.porcentaje
+{
+	text-align: center;        /* align="center"  */
+	vertical-align: bottom;    /* valign="bottom" */
+}

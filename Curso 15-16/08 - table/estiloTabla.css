@@ -1,0 +1,41 @@
+tr.cabecera
+{
+  background-color: #FFA07A;
+  text-align: center;
+  vertical-align: middle;
+}
+tr.impar
+{
+  background-color: #B0E0E6;
+  text-align: center;
+  vertical-align: middle;
+  height: 50px;
+}
+tr.par
+{
+  background-color: #FFFFFF;
+  text-align: center;
+  vertical-align: middle;
+  height: 50px;
+}
+td.producto
+{
+  text-align: left;
+  font-weight: bold;
+  
+}
+td.codigo
+{
+  text-align: left;
+  vertical-align: top;
+}
+td.precio
+{
+  text-align: center;
+  vertical-align: middle;
+}
+td.descuento
+{
+  text-align: right;
+  vertical-align: bottom;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Listas </title>
+   <meta charset="utf-8">
+   <style>
+     dt
+     {
+        color: rgb(0,123,200);
+        font-size: 16pt;
+     }
+     dd
+     {
+        color: rgb(0,70,255);
+        font-size: 14pt;
+     }     
+   </style>
+</head>
+<body>
+   Texto  a enlazar
+   <h2>Listas</h2>
+   <h3>Listas desordenadas</h3>
+   
+   <p>
+     Estas son las partes de un ordenador:
+     <!-- circle, square, disc -->
+     <ul type="circle">
+       <li>Placa base</li>
+       <li>Pantalla</li>
+       <li>Monitor</li>
+       <li>Teclado</li>
+       <li>Ratón</li>
+     </ul>
+   </p> 
+   <h3>Listas ordenadas</h3>
+   <p>
+     Los meses se clasifican
+     <!-- type=”1”, “a”, “A”, “i”, “I” start=”num”> -->
+     <ol type="A">
+       <li>
+         Meses de 30 días
+         <ol type="I" start="7">
+           <li>Abril €</li>
+           <li>Junio</li>
+           <li>Septiembre</li>
+           <li>Noviembre</li>
+         </ol>
+       </li>
+       <li>
+         Meses de 28 días
+         <ol type="I">
+           <li>Febrero</li>
+         </ol>
+       </li>
+       <li>
+         Meses de 31 días
+         <ol type="I">
+           <li>Enero</li>
+           <li>Marzo</li>
+           <li>Mayo</li>
+           <li>Julio</li>
+           <li>Agosto</li>
+           <li>Septiembre</li>
+         </ol>
+       </li>
+     </ol>
+   </p>
+   <h3>Listas de definición</h3>
+   <p>
+     Las fases de elaboración de programas son:
+     <dl>
+       <dt>Análisis</dt>
+         <dd>
+           Definición de los elementos
+         </dd>
+       <dt>Diseño</dt>
+         <dd>
+           Solución a los elementos análisis
+         </dd>
+       <dt>Codificación</dt>
+         <dd>
+           Traducción a lenguaje de programación
+         </dd>
+       <dt>Explotación</dt>
+         <dd>
+          Puesta en producción y pruebas
+         </dd>
+       <dt>Mantenimiento</dt>
+         <dd>
+           Puesta a punto y mejoras
+         </dd>
+     </dl>
+   </p>
+</body>
+</html>
