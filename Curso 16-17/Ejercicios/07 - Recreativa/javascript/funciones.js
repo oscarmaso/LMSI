@@ -24,9 +24,11 @@ function Guardar()
    marActual.innerHTML = numerMarActual + numerTirActual;
 
    /* Sin variables */
+   /*
    marActual.innerHTML = 
      parseInt(marActual.innerHTML) +      
      parseInt(tirActual.innerHTML);
+   */
 }
 function CambiarImagen(idImagen)
 {
@@ -46,4 +48,42 @@ function CambiarImagen(idImagen)
    	  	imagen.src = "imagenes/Limon.png"
    	  else
    	  	imagen.src = "imagenes/Fresa.png"
+
+   CalcularPuntuacion();
+}
+
+function CalcularPuntuacion()
+{
+   var imagen1,imagen2,imagen3,puntos,
+       tirActual;
+
+   imagen1 = document.getElementById('imagen1');
+   imagen2 = document.getElementById('imagen2');
+   imagen3 = document.getElementById('imagen3');
+
+   if( (imagen1.src == imagen2.src) && 
+   	   (imagen2.src == imagen3.src) )
+   	    // Las tres imágenes son iguales
+        puntos = 1000;
+    else
+   	    if ( (imagen1.src == imagen2.src) || 
+   	         (imagen1.src == imagen3.src) || 
+   	         (imagen2.src == imagen3.src) )
+   	  	  // Dos iḿágenes iguales
+   	  	  puntos = 500;
+   	    else
+   	  	  // Las tres imágenes distintas
+   	  	  puntos = 0;
+
+   	// Actualizar el contador actual
+    tirActual = document.getElementById('TiradaActual');
+    tirActual.innerHTML = puntos;
+}
+
+function Jugar()
+{
+	CambiarImagen('imagen1');
+	CambiarImagen('imagen2');
+	CambiarImagen('imagen3');
+	CalcularPuntuacion();
 }
